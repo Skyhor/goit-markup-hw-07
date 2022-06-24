@@ -16,18 +16,22 @@
     border: 1px solid #AFB1B8;
     fill: #AFB1B8;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+        }
 }
 
-.client-list:hover,
-.client-list:focus {
-    border-color: var(--accent-color);
-}
+
 
 .client-logo {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .client-list:hover &,
+        .client-list:focus & {
+            fill: var(--accent-color);
+        }
 }
 
-.client-list:hover .client-logo,
-.client-list:focus .client-logo {
-    fill: var(--accent-color);
-}
