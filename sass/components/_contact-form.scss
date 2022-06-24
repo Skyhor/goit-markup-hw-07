@@ -9,12 +9,14 @@ textarea {
     border-radius: 4px;
     padding-left: 42px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contact-form-input:focus {
+    &:focus {
     outline: none;
     border-color: var(--accent-color);
+    }
+
 }
+
 
 .contact-form-input-icon {
     position: relative;
@@ -29,11 +31,14 @@ textarea {
     width: 18px;
     height: 18px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    .contact-form-input:focus+& {
+            fill: var(--accent-color);
+        }
 }
 
-.contact-form-input:focus+.icon-modal {
-    fill: var(--accent-color);
-}
+
 
 .argre {
     color: var(--accent-color);
@@ -50,26 +55,33 @@ textarea {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+
+
+    &::before {
+            content: '';
+            display: block;
+            width: 16px;
+            height: 15px;
+    
+            border: 2px solid rgba(33, 33, 33, 1);
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 8px;
+
+            .checkbox:checked+& {
+            background-image: url(../img/background-img/icon-check.svg);
+            border: none;
+        }
+
+        .checkbox:focus+&{
+            outline: 1px solid #188CE8;
+        }
+        }
+
+        
 }
 
-.checkbox-agrre::before {
-    content: '';
-    display: block;
-    width: 16px;
-    height: 15px;
 
-    border: 2px solid rgba(33, 33, 33, 1);
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 8px;
 
-}
 
-.checkbox:checked+.checkbox-agrre::before {
-    background-image: url(../img/background-img/icon-check.svg);
-    border: none;
-}
 
-.checkbox:focus+.checkbox-agrre::before {
-    outline: 1px solid #188CE8;
-}
