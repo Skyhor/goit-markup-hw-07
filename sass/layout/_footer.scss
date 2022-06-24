@@ -1,0 +1,98 @@
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer {
+    padding: 60px 0;
+    background: #2F303A;
+}
+
+.footer-link:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-nav {
+    margin-right: 70px;
+    flex-grow: 1;
+}
+
+.footer-adres-link {
+    margin-top: 20px;
+    font-style: normal;
+}
+
+
+.footer-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--contact-color)
+}
+
+.foter-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.footer-subscribe {
+    margin-left: 93px;
+}
+
+.footer-subscribe-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-mail {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    background-color: #2F303A;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.footer-mail:focus {
+    outline: none;
+}
+
+.footer-mail::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+.icon-footer-sub {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
