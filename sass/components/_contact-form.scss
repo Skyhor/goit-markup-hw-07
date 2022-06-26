@@ -2,7 +2,7 @@ textarea {
     resize: none;
 }
 
-.contact-form-input {
+.form-in-modal__input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -18,12 +18,12 @@ textarea {
 }
 
 
-.contact-form-input-icon {
+.form-in-modal__list {
     position: relative;
     margin-bottom: 10px;
 }
 
-.icon-modal {
+.form-in-modal__icon {
     position: absolute;
     top: 50%;
     left: 12px;

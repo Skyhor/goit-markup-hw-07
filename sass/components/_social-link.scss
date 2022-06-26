@@ -47,26 +47,7 @@
 }
 
 
-
-
-.footer-social-list {
-    display: flex;
-}
-
-
-
-.footer-icon {
-    width: 44px;
-    height: 44px;
-    border-radius: 50% 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-
-    &:not(:last-child) {
-    margin-right: 10px;
-    }
-}
-
-.icon-link {
+.footer-social__link {
     fill: var(--white-color);
     display: flex;
     justify-content: center;

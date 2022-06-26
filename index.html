@@ -559,28 +559,28 @@
             Web<span class="logo__white">Studio</span>
           </a>
 
-          <address class="footer-adres-link">
+          <address class="footer-adres">
             <ul class="list">
-              <li class="footer-link">
+              <li class="footer-adres__list">
                 <a
                   href="https://maps.app.goo.gl/37EXF5mU9n8MmFkR7"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="link footer-adres"
+                  class="link footer-adres__map"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer-link">
+              <li class="footer-adres__list">
                 <a
                   href="mailto:info@devstudio.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="link footer-contact"
+                  class="link footer-adres__link"
                   >info@devstudio.com
                 </a>
               </li>
-              <li class="footer-link">
-                <a href="tel:+380961111111" class="link footer-contact">
+              <li class="footer-adres__list">
+                <a href="tel:+380961111111" class="link footer-adres__link">
                   +38 096 111 11 11
                 </a>
               </li>
@@ -589,37 +589,37 @@
         </div>
         <div class="footer-social">
           <h3 class="foter-title">присоединяйтесь</h3>
-          <ul class="list footer-social-list">
-            <li class="footer-icon">
-              <a href="" class="icon-link">
-                <svg class="footer-icon-link" width="20" height="20">
+          <ul class="list footer-social__list">
+            <li class="footer-social__icon">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__link-icon" width="20" height="20">
                   <use
                     href="./img/icons.svg/symbol-defs.svg#icon-instagram"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon">
-              <a href="" class="icon-link">
-                <svg class="footer-icon-link" width="20" height="20">
+            <li class="footer-social__icon">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__link-icon" width="20" height="20">
                   <use
                     href="./img/icons.svg/symbol-defs.svg#icon-twitter"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon">
-              <a href="" class="icon-link">
-                <svg class="footer-icon-link" width="20" height="20">
+            <li class="footer-social__icon">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__link-icon" width="20" height="20">
                   <use
                     href="./img/icons.svg/symbol-defs.svg#icon-facebook"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon">
-              <a href="" class="icon-link">
-                <svg class="footer-icon-link" width="20" height="20">
+            <li class="footer-social__icon">
+              <a href="" class="footer-social__link">
+                <svg class="footer-social__link-icon" width="20" height="20">
                   <use
                     href="./img/icons.svg/symbol-defs.svg#icon-social-in"
                   ></use>
@@ -629,7 +629,7 @@
           </ul>
         </div>
         <div class="footer-subscribe">
-          <h3 class="footer-subscribe-title">Подпишитесь на рассылку</h3>
+          <h3 class="foter-title">Подпишитесь на рассылку</h3>
           <form class="subscribe">
             <label for="mail"></label>
             <input
@@ -653,31 +653,31 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close>
-          <svg class="modal-close">
+          <svg class="close-button-icon">
             <use href="./img/icons.svg/symbol-defs.svg#icon-close-black"></use>
           </svg>
         </button>
         <form class="form-in-modal">
           <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-          <label for="name" class="modal-list-name">Имя</label>
-          <div class="contact-form-input-icon">
+          <label for="name" class="form-in-modal__name">Имя</label>
+          <div class="form-in-modal__list">
             <input
               type="text"
               name="user-name"
               id="name"
               required
               minlength="2"
-              class="contact-form-input"
+              class="form-in-modal__input"
             />
-            <svg class="icon-modal">
+            <svg class="form-in-modal__icon">
               <use
                 href="./img/icons.svg/symbol-defs.svg#icon-person-black"
               ></use>
             </svg>
           </div>
 
-          <label for="tel" class="modal-list-name">Телефон</label>
-          <div class="contact-form-input-icon">
+          <label for="tel" class="form-in-modal__name">Телефон</label>
+          <div class="form-in-modal__list">
             <input
               type="tel"
               name="user-tel"
@@ -685,24 +685,24 @@
               required
               pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
               title="xxx-xxx-xx-xx"
-              class="contact-form-input"
+              class="form-in-modal__input"
             />
-            <svg class="icon-modal">
+            <svg class="form-in-modal__icon">
               <use
                 href="./img/icons.svg/symbol-defs.svg#icon-phone-black"
               ></use>
             </svg>
           </div>
-          <label for="mailmodal" class="modal-list-name">Почта</label>
-          <div class="contact-form-input-icon">
+          <label for="mailmodal" class="form-in-modal__name">Почта</label>
+          <div class="form-in-modal__list">
             <input
               type="email"
               name="user-mail"
               id="mailmodal"
               required
-              class="contact-form-input"
+              class="form-in-modal__input"
             />
-            <svg class="icon-modal">
+            <svg class="form-in-modal__icon">
               <use
                 href="./img/icons.svg/symbol-defs.svg#icon-email-black"
               ></use>
@@ -710,10 +710,10 @@
           </div>
 
           <label for="comment"
-            ><span class="modal-list-name">Комментарий</span></label
+            ><span class="form-in-modal__name">Комментарий</span></label
           >
           <textarea
-            class="modal-message"
+            class="form-in-modal__message"
             name="comment"
             id="comment"
             placeholder="Введите текст"
