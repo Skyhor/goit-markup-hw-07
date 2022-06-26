@@ -433,16 +433,16 @@ textarea {
   align-items: center;
 }
 
-.wrapper {
+.menu {
   margin-left: 93px;
   display: flex;
 }
 
-.header-link:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-nav-link {
+.menu__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -452,7 +452,7 @@ textarea {
   color: var(--black-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-nav-link:hover, .header-nav-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
 
@@ -807,9 +807,6 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-}
-
-.portfolio-hero-button {
   padding: 6px 22px;
 }
 

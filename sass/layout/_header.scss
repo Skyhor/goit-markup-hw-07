@@ -16,16 +16,16 @@
 
 
 
-.wrapper {
+.menu {
     margin-left: 93px;
     display: flex;
 }
 
-.header-link:not(:last-child) {
+.menu__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-nav-link {
+.menu__link {
     position: relative;
     font-weight: 500;
     font-size: 14px;
