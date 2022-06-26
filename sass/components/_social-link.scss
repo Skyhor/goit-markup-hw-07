@@ -1,10 +1,10 @@
-.team-social-link {
+.social-link {
     display: flex;
     justify-content: center;
 
 }
 
-.social-card {
+.social-link__list {
     cursor: pointer;
 
    &:not(:last-child) {
@@ -14,7 +14,7 @@
 
 
 
-.social-link {
+.social-link__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,8 +40,8 @@
     fill: var(--white-color);
     }
 
-.social-link:hover &,
-.social-link:focus & {
+.social-link__link:hover &,
+.social-link__link:focus & {
     fill: var(--white-color);
 }
 }

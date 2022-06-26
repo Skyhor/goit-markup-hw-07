@@ -1,15 +1,15 @@
-.team {
+.team-section {
     background-color: #F5F4FA;
 }
 
-.team-list {
+.team {
     display: flex;
     flex-wrap: wrap;
 }
 
 
 
-.team-photo {
+.team__list {
     flex-basis: calc((100% - 120px)/ 4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -20,14 +20,14 @@
             }
 }
 
-.team-card {
+.team__card {
     padding-top: 30px;
     padding-bottom: 30px;
     border-top: none;
     background-color: var(--white-color);
 }
 
-.team-name {
+.team__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -37,7 +37,7 @@
 }
 
 
-.about-team {
+.team__text {
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.18;

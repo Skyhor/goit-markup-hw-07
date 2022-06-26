@@ -10,11 +10,11 @@
     position: relative;
 }
 
-.about-us-visual {
+.about-us__visual {
     position: relative;
 }
 
-.about-us-fon {
+.about-us__fon {
     position: absolute;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.about-us-text {
+.about-us__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;

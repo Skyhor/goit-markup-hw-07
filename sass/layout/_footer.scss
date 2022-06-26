@@ -1,11 +1,14 @@
+.footer {
+    padding: 60px 0;
+    background: #2F303A;
+}
+
 .footer .container {
     display: flex;
     align-items: baseline;
 }
-
-.footer {
-    padding: 60px 0;
-    background: #2F303A;
+.logo__white {
+    color: var(--white-color);
 }
 
 .footer-link:not(:last-child) {
@@ -17,9 +20,15 @@
     flex-grow: 1;
 }
 
-.footer-adres-link {
+.footer-adres {
     margin-top: 20px;
     font-style: normal;
+}
+.footer-adres__link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
 }
 
 
@@ -55,6 +64,27 @@
 
     color: var(--white-color);
 }
+
+.btn-sub {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    border: none;
+    padding: 0;
+    margin-left: 12px;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+    }
+}
+
 
 .subscribe {
     display: flex;

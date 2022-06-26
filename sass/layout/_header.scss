@@ -14,6 +14,9 @@
     align-items: center;
 }
 
+.logo__black {
+    color: var(--black-color);
+}
 
 
 .menu {
@@ -51,7 +54,7 @@
     &::after {
             content: '';
             position: absolute;
-            bottom: -2px;
+            bottom: -1px;
             border-radius: 2px;
             display: block;
             width: 100%;
@@ -62,13 +65,13 @@
 
 
 
-.wrapper-adres {
+.menu-nav {
     display: flex;
 }
 
 
 
-.header-contact-adres {
+.menu-nav__item{
     fill: currentColor;
 
     &:not(:last-child) {
@@ -76,15 +79,11 @@
     }
 }
 
-.header-contact:hover,
-.header-contact:focus {
+.menu-nav__link:hover,
+.menu-nav__link:focus {
     color: var(--accent-color);
 }
 
-.icon-envel {
-    margin-right: 10px;
-}
-
-.icon-tel {
+.menu-nav__icon {
     margin-right: 10px;
 }

@@ -11,6 +11,30 @@
     background-repeat: no-repeat;
 }
 
+.hero__button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px 32px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8
+    }
+}
+
 .hero-title {
     width: 696px;
     margin-left: auto;
@@ -29,16 +53,3 @@
 
 
 
-.advant-text {
-    display: flex;
-}
-
-
-
-.hero-text {
-    flex-basis: calc((100% - 120px)/ 4);
-
-    &:not(:last-child) {
-            margin-right: 30px;
-        }
-}
